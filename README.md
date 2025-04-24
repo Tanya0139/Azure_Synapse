@@ -4,6 +4,8 @@
 This project demonstrates how to use Azure Synapse Analytics to implement a complete data lakehouse architecture using Delta Lake tables and Azure components.
 
 ---
+## Dashboard
+  <img src="https://github.com/Tanya0139/tanya0139/blob/main/assets_tanya/synapse.png" alt="Azure Synapse Analytics">
 
 ## 🏗️ Architecture Overview
 
