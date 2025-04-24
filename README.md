@@ -8,14 +8,15 @@ This project demonstrates how to use Azure Synapse Analytics to implement a comp
 ## 🏗️ Architecture Overview
 
 ```mermaid
-graph TD;
-  Source[Raw Data (Parquet/CSV)] --> Mount[Mount ADLS to Synapse]
-  Mount --> Bronze[Bronze Layer (Raw Data)]
-  Bronze --> Silver[Silver Layer (Cleaned & Filtered)]
-  Silver --> Gold[Gold Layer (Aggregated)]
-  Gold --> SQLViews[SQL Serverless Views]
-  SQLViews --> PowerBI[Power BI Dashboard]
+graph TD
+  Source["Raw Data (Parquet/CSV)"] --> Mount["Mount ADLS to Synapse"]
+  Mount --> Bronze["Bronze Layer (Raw Data)"]
+  Bronze --> Silver["Silver Layer (Cleaned & Filtered)"]
+  Silver --> Gold["Gold Layer (Aggregated)"]
+  Gold --> SQLViews["SQL Serverless Views"]
+  SQLViews --> PowerBI["Power BI Dashboard"]
 ```
+
 
 
 ---
